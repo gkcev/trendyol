@@ -1,0 +1,451 @@
+
+
+.search-alani {
+    background: url(/images/search-logo.png) no-repeat right center;
+    background-size: 1.5rem 1.5rem;
+    width: 500px;
+    background-color: rgb(242, 242, 242);
+}
+
+.navigation {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+
+.menu-item {
+    margin: 5px 10px 10px 10px;
+    list-style: none;
+}
+
+.orta-menu {
+    margin-top: 5px;
+}
+
+.sag-menu {
+    margin-top: 10px;
+
+}
+
+.menu-top .menu-item {
+    font-size: x-small;
+}
+
+.menu-top {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.menu-icon {
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.kadin {
+    padding: 0;
+    border: 0;
+}
+
+
+
+.navbar {
+    margin: 0 10%;
+}
+
+.main-content {
+    margin: 0 5%;
+}
+
+.carousel-area {
+    height: 140px;
+    width: auto;
+    background-color: #f28324;
+    margin: 50px 0;
+}
+
+.kampanya-butonlar a {
+    margin:0 30px 40px 0px;
+}
+
+
+.trendyol-footer {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.markalar h5 {
+    margin-bottom: 25px;
+}
+
+.yeni-sezon .btn {
+    text-align: left;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 12px;
+}
+
+.yeni-sezon .btn:hover {
+    background-color: #f28324;
+}
+
+.yeni-sezon {
+    margin-bottom: 30px;
+
+}
+
+.product-item {
+    border: 1px solid rgb(219, 219, 219);
+    height: 500px;
+}
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.btns {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns button {
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btns button:hover {
+    color: #f28324
+}
+
+.product-img:hover .btns {
+    bottom: 0;
+}
+
+.wvu-breadcrumbs {
+    font-size: .85em;
+    color: #ccc;
+    line-height: 1.5;
+    margin: 18px;
+    padding-left: 0;
+}
+
+.wvu-breadcrumbs li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.wvu-breadcrumbs li:before {
+    content: ">";
+    color: #f28324;
+    padding-right: 3px;
+}
+
+.wvu-breadcrumbs li:first-child:before {
+    content: "";
+    padding-right: 0;
+}
+
+.product-image{
+    height: auto;
+    width: 350px;
+    margin: 10px;
+    border-radius: 2%;
+
+}
+
+.details{
+    height: auto;
+    width: 200px;
+    border-radius: 1%;
+    background-color: #fbf9f9;
+}
+
+.product-genel{
+    border: 1px solid rgba(207, 204, 204, 0.757);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 1%;
+}
+
+.product-details{
+    padding: 0% 5%;
+}
+
+.product-details h5{
+    padding: 5% 0% 0 0%;
+}
+
+.product-details h4{
+    color: #f28324;
+    margin-top: 3%;
+}
+
+
+.product-details p{
+    font-size: small;
+}
+
+.star-color, .fa-star-half{
+    color: gold;
+}
+
+.bookmark p{
+    margin-left: 1%;
+}
+
+hr.bookmark{
+    margin-top:0px;
+}
+
+img.cesit{
+    height: 60px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+img.cesit:hover{
+border: 3px solid orange;   
+}
+.sepeteekle{
+    background-color: #f28324;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
+
+.heart:hover{
+    background-color: white;
+    color: #f28324;
+}
+
+.sepet button{
+    margin-left:10px;
+}
+
+.renk{
+    margin-bottom:5px;
+}
+
+.bedenler p{
+    border: 1px solid grey;
+    border-radius: 20%;
+    padding: 5px;
+    margin:15px 5px;
+}
+
+.bedenler p:hover{
+    color:#f28324;
+    border: 1px solid #f28324;
+}
+
+h3.benzer{
+    margin: 30px 10px;
+}
+
+.fatura{
+    border: 1px solid rgb(196, 193, 193);
+    background-color:#f5f9ff;
+    margin: 20px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+
+}
+
+.kampanyadiv{
+    border: 1px solid rgb(196, 193, 193);
+    background-color: #fefaf5;
+    margin: 20px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+}
+
+.satici{
+    border: 1px solid rgb(196, 193, 193);
+    background-color: #fffef8;
+    margin: 20px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+}
+
+.onecikan{
+    border: 1px solid rgb(196, 193, 193);
+    background-color: #faf8f9;
+    margin: 20px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+}
+
+.details a{
+    color: blue;
+}
+
+.details p{
+ font-size: small
+}
+
+.puan{
+    border: 1px solid rgb(39, 188, 39);
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 20%;
+    background-color:  rgb(39, 188, 39);
+    color: white;
+    padding: 2% 2%;
+}
+
+.card-image{
+    position: relative;
+    height: auto;
+    width: auto;
+    background: #FFF;
+    padding: 3px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+
+.card{
+    border-radius: 10px;
+    background-color: #FFF;
+    border: none;
+}
+
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+.slide-content2{
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+.image-content,.card-content{
+    padding:10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content{
+    row-gap: 5px;
+}
+
+.slide-container{
+    max-width: 100vw;
+    width: 100%;
+    padding: 10px 40px 40px 40px;
+}
+
+.swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease-in-out;
+}
+
+.swiper-navBtn:hover{
+    color: #4070F4;
+}
+
+.swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity:1;
+
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #4070F4;
+
+}
+
+@media screen and (max-width:758px){
+    .swiper-navBtn{
+        display: none;
+    }
+    .slide-content{
+        margin: 0 10px;
+    }
+    .slide-content2{
+        margin: 0 10px;
+    }
+}
+
+.benzerdiv{
+    border: 1px solid rgb(192, 188, 188);
+}
+
+p.description{
+    font-size: smaller;
+}
+
+p.price{
+    color: #f28324;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+.logo img{
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(193, 193, 193);
+}
+
+
+.aciklama p{
+    font-size: 13px;
+    color: #333;
+}
+
+.aciklama h3{
+    font-size: 18px;
+    color: #333;
+}
+
+.markalar h5{
+    font-size:22px;
+    color: #333;
+}
+
+
+.markalar a{
+    font-size:13px;
+    color: #333;
+}
+
+h2.slide_baslik{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.anlasmalar{
+    position: relative;
+    left:-15px;
+    height: 50px;
+    width: auto;
+    
+}

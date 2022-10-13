@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper Bundle-->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <!-- Custom Stylesheet-->
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navigation d-flex justify-content-end">
+        <ul class="menu-top d-flex justify-content-end">
+            <li class="menu-item"><a href="">İndirim Kuponlarım</a></li>
+            <li class="menu-item"><a href="">Trendyol'da Satış Yap</a></li>
+            <li class="menu-item"><a href="">Yardım & Destek</a></li>
+        </ul>
+    </nav>
+
+    <nav>
+        <ul class="navigation">
+            <div class="sol-menu d-flex">
+                <li>
+                    <a href=""><img src="images/ty-web-elite-v2.svg" width="160px"></a>
+                </li>
+            </div>
+            <div class="orta-menu d-flex">
+                <li>
+                    <div class="form-group has-search">
+                        <input type="text" class="form-control search-alani menu-item"
+                            placeholder="Aradığınız ürün, kategori veya markayı yazınız">
+                    </div>
+                </li>
+            </div>
+            <div class="sag-menu d-flex">
+                <li class="menu-item">
+                    <img class="menu-icon" src="/images/user.png" width="15px"><a href="">Giriş Yap</a>
+                </li>
+                <li class="menu-item">
+                    <img class="menu-icon" src="/images/heart.png" width="15px"><a href=""> Favorilerim</a>
+                </li>
+                <li class="menu-item">
+                    <img class="menu-icon" src="/images/cart.png" width="15px"><a href=""> Sepetim</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand navbar-light bg-light categories">
+            <div class="container-fluid justify-content-evenly">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Kadın
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Erkek
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Çocuk
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ev & Mobilya
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Süpermarket
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Kozmetik
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ayakkabı & Çanta
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Saat & Aksesuar
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Elektronik
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Spor & Outdoor
+                            </a>
+                            <ul class="dropdown-menu kadin" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu d-flex">
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Giyim</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Elbise</a></li>
+                                        <li><a class="dropdown-item" href="#">Gömlek</a></li>
+                                        <li><a class="dropdown-item" href="#">Kot Pantalon</a></li>
+                                        <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Mont</a></li>
+                                        <li><a class="dropdown-item" href="#">Bluz</a></li>
+                                        <li><a class="dropdown-item" href="#">Ceket</a></li>
+                                        <li><a class="dropdown-item" href="#">Kazak</a></li>
+                                        <li><a class="dropdown-item" href="#">Etek</a></li>
+                                        <li><a class="dropdown-item" href="#">Büyük Beden</a></li>
+                                        <li><a class="dropdown-item" href="#">Kaban</a></li>
+                                        <li><a class="dropdown-item" href="#">Pantalon</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Ayakkabı</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Topuklu Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sneaker</a></li>
+                                        <li><a class="dropdown-item" href="#">Günlük Ayakkabı</a></li>
+                                        <li><a class="dropdown-item" href="#">Sandalet</a></li>
+                                        <li><a class="dropdown-item" href="#">Terlik</a><br></li>
+                                        <li><a class="dropdown-item" href="#"><b>Aksesuar & Çanta</b></a></li>
+                                        <li><a class="dropdown-item" href="#">Çanta</a></li>
+                                        <li><a class="dropdown-item" href="#">Saat</a></li>
+                                        <li><a class="dropdown-item" href="#">Takı</a></li>
+                                        <li><a class="dropdown-item" href="#">Şapka</a></li>
+                                        <li><a class="dropdown-item" href="#">Cüzdan</a></li>
+                                    </div>
+                                    <div class="container-fluid">
+                                        <li><a class="dropdown-item" href="#"><b>Spor & Outdoor</b></a></li>
+                                        <li> <a class="dropdown-item" href="#">Eşofman</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">T-shirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
+                                        <li><a class="dropdown-item" href="#">Forma</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Çorap</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Giyim</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ayakkabı</a></li>
+                                        <li> <a class="dropdown-item" href="#">Spor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Outdoor Ekipmanları</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Besinleri</a></li>
+                                        <li> <a class="dropdown-item" href="#">Sporcu Aksesuarları</a></li>
+                                    </div>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+    </div>
+    <hr>
+
+
+
+
+    <div class="main-content">
+        <ul class="wvu-breadcrumbs">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Kadın</a></li>
+            <li><a href="#">Giyim</a></li>
+            <li><a href="#">Kazak & Hırka</a></li>
+            <li>Kazak</li>
+        </ul>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+
+                    <div class="container-fluid product-genel">
+                        <div class="row d-flex">
+                            <div class="col-6 product-image">
+                                <img class="product-image" src="/images/kazak.webp" alt="">
+                            </div>
+                            <div class="col product-details">
+                                <h5>Jose Clothing Kadın Polo Yaka Siyah Beyaz Çizgili Uzun Kollu Triko Kazak JC260801
+                                </h5>
+                                <p>Satıcı: <a href="">Jose Clothing</a></p>
+                                <span>
+                                    <i class="fa fa-star star-color"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star star-color"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star star-color"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star star-color"></i>
+                                </span>
+                                <span>
+                                    <i class="fa fa-star-half"></i>
+                                </span>
+                                <span>
+                                    (12876 Değerlendirme)
+                                </span>
+                                <h4>133,10TL</h4>
+                                <span class="d-flex justify-content-end bookmark">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                    <p>Koleksiyona ekle</p>
+                                </span>
+
+                                <hr class="bookmark">
+
+                                <p class="renk">Renk</p>
+                                <div class="cesitler">
+                                    <img class="cesit" src="/images/cesit1.webp">
+                                    <img class="cesit" src="/images/cesit2.webp">
+                                </div>
+                                <p>Beden: SSTD </p>
+                                <div class="bedenler d-flex">
+                                    <p>32</p>
+                                    <p>34</p>
+                                    <p>36</p>
+                                    <p>38</p>
+                                    <p>40</p>
+                                    <p>42</p>
+                                </div>
+                                <div class="sepet d-flex">
+                                    <button type="button" class="btn btn-primary btn-lg btn-block sepeteekle">Sepete
+                                        Ekle</button>
+                                    <button type="button" class="btn btn-outline-secondary heart"><i
+                                            class="fa-regular fa-heart"></i></button>
+                                </div>
+                                <hr>
+                                <p><b>Öne Çıkan Bilgiler</b></p>
+                                <ul>
+                                    <li>15 gün içinde ücretsiz iade. Detaylı bilgi için tıklayın.</li>
+                                    <li>Bu ürün Trendyol tarafından gönderilecektir.</li>
+                                    <li>Modelin Ölçüleri: Boy: 1.73, Göğüs: 81 , Bel: 61, Kalça: 88</li>
+                                    <li>Mankenin üzerindeki ürün S/36 bedendir.</li>
+                                    <li>95% Polyester,5% Elastan, Dokuma Kumaş</li>
+                                    <li>İç Boy Uzunluğu: 82 cm</li>
+                                    <li>Bu üründen en fazla 10 adet sipariş verilebilir. 10 adetin üzerindeki
+                                        siparişleri Trendyol iptal etme hakkını saklı tutar.</li>
+                                </ul>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 details">
+                    <div class="fatura">
+                        <h6>Kurumsal Fatura</h6>
+                        <p>Bu ürünü Kurumsal Fatura ile satın alabilirsiniz.<a href="#">İncele ></a>
+                    </div>
+                    </p>
+
+                    <div class="kampanyadiv">
+                        <h6 style="font-size:12px;">ÜRÜNÜN KAMPANYALARI</h6>
+                        <hr>
+                        <p> 75TL ve Üzeri Kargo Bedava</p>
+                    </div>
+                    <div class="satici">
+                        <div class="d-flex">
+                            <h6 style="font-size:14px;">Jose Clothing</h6>
+                            <p class="puan">8.5</p>
+                        </div>
+                        <hr>
+                        <p> Mağazayı Gör</p>
+                        <hr>
+                        <p>Ürünün Soruları (145)</p>
+                    </div>
+                    <div class="onecikan">
+                        <h6 style="font-size:12px;">ÖNE ÇIKAN YORUM</h6>
+                        <hr>
+                        <span>
+                            <i class="fa fa-star" style="color:orange;"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-star" style="color:orange;"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-star" style="color:orange;"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-star" style="color:orange;"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-star" style="color:orange;"></i>
+                        </span>
+                        <p>NOTUNUZ İÇİN ÇOK TEŞEKKÜR EDERİM GÜNÜMÜ GÜZELLEŞTİRDİ RESMEN :) KAZAĞA DA BAYILDIMMM YUMUŞACIKKK
+                        </p>
+                        <p>G** E** | 4 Ekim 2022 </p>
+                        <span style="color: green; font-size: smaller;"><i class="fa-solid fa-circle-check"></i>Ürünü satın aldı</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <h2 class="slide_baslik">Benzer Ürünler</h2>
+        <div class="slide-container swiper benzerler">
+            <div class="slide-content">
+                <div class="div card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide benzerdiv">
+                        <div class="div image-content ">
+                            <div class="div card-image ">
+                                <img src="/images/benzer1.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="description"> Jose Clothing Kadın Polo Yaka Siyah Beyaz Çizgili Uzun Kollu Triko Kazak JC260801  </p>
+                            <p class="price"><b>Sepet Fiyatı: 133,10TL</b></p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide benzerdiv">
+                        <div class="div image-content">
+                            <div class="div card-image ">
+                                <img src="/images/benzer2.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="description"> Jose Clothing Kadın Polo Yaka Siyah Beyaz Çizgili Uzun Kollu Triko Kazak JC260801  </p>
+                            <p class="price"><b>Sepet Fiyatı: 133,10TL</b></p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide benzerdiv">
+                        <div class="div image-content">
+                            <div class="div card-image ">
+                                <img src="/images/benzer3.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="description"> Jose Clothing Kadın Polo Yaka Siyah Beyaz Çizgili Uzun Kollu Triko Kazak JC260801  </p>
+                            <p class="price"><b>Sepet Fiyatı: 133,10TL</b></p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide benzerdiv">
+                        <div class="div image-content">
+                            <div class="div card-image ">
+                                <img src="/images/benzer4.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="description"> Jose Clothing Kadın Polo Yaka Siyah Beyaz Çizgili Uzun Kollu Triko Kazak JC260801  </p>
+                            <p class="price"><b>Sepet Fiyatı: 133,10TL</b></p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide benzerdiv">
+                        <div class="div image-content">
+                            <div class="div card-image ">
+                                <img src="/images/benzer5.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="description"> Jose Clothing Kadın Polo Yaka Siyah Beyaz Çizgili Uzun Kollu Triko Kazak JC260801  </p>
+                            <p class="price"><b>Sepet Fiyatı: 133,10TL</b></p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide benzerdiv">
+                        <div class="div image-content">
+                            <div class="div card-image ">
+                                <img src="/images/benzer6.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="description"> Jose Clothing Kadın Polo Yaka Siyah Beyaz Çizgili Uzun Kollu Triko Kazak JC260801  </p>
+                            <p class="price"><b>Sepet Fiyatı: 133,10TL</b></p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide benzerdiv">
+                        <div class="div image-content">
+                            <div class="div card-image">
+                                <img src="/images/benzer7.webp" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <p class="description"> Jose Clothing Kadın Polo Yaka Siyah Beyaz Çizgili Uzun Kollu Triko Kazak JC260801  </p>
+                            <p class="price"><b>Sepet Fiyatı: 133,10TL</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+        </div>
+
+        <hr>
+
+        <div class="markalar mb-5 mt-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h5>Popüler Marka ve Mağazalar</h5>
+                            <div class="col-4">
+                                <a class="d-block" href="">Penti</a>
+                                <a class="d-block" href="">Mango</a>
+                                <a class="d-block" href="">Vivense</a>
+                                <a class="d-block" href="">Watsons</a>
+                                <a class="d-block" href="">English Home</a>
+                                <a class="d-block" href="">Bershka</a>
+                                <a class="d-block" href="">Stradivarius</a>
+                                <a class="d-block" href="">Bellona</a>
+                                <a class="d-block" href="">Beymen</a>
+                                <a class="d-block" href="">İstikbal</a>
+                                <a class="d-block" href="">Samsung</a>
+                                <a class="d-block" href="">Addax</a>
+                                <a class="d-block" href="">Puma</a>
+                                <a class="d-block" href="">Mudo</a>
+                                <a class="d-block" href="">Derimod</a>
+                            </div>
+                            <div class="col-4">
+                                <a class="d-block" href="">Penti</a>
+                                <a class="d-block" href="">Mango</a>
+                                <a class="d-block" href="">Vivense</a>
+                                <a class="d-block" href="">Watsons</a>
+                                <a class="d-block" href="">English Home</a>
+                                <a class="d-block" href="">Bershka</a>
+                                <a class="d-block" href="">Stradivarius</a>
+                                <a class="d-block" href="">Bellona</a>
+                                <a class="d-block" href="">Beymen</a>
+                                <a class="d-block" href="">İstikbal</a>
+                                <a class="d-block" href="">Samsung</a>
+                                <a class="d-block" href="">Addax</a>
+                                <a class="d-block" href="">Puma</a>
+                                <a class="d-block" href="">Mudo</a>
+                                <a class="d-block" href="">Derimod</a>
+                            </div>
+                            <div class="col-4">
+                                <a class="d-block" href="">Penti</a>
+                                <a class="d-block" href="">Mango</a>
+                                <a class="d-block" href="">Vivense</a>
+                                <a class="d-block" href="">Watsons</a>
+                                <a class="d-block" href="">English Home</a>
+                                <a class="d-block" href="">Bershka</a>
+                                <a class="d-block" href="">Stradivarius</a>
+                                <a class="d-block" href="">Bellona</a>
+                                <a class="d-block" href="">Beymen</a>
+                                <a class="d-block" href="">İstikbal</a>
+                                <a class="d-block" href="">Samsung</a>
+                                <a class="d-block" href="">Addax</a>
+                                <a class="d-block" href="">Puma</a>
+                                <a class="d-block" href="">Mudo</a>
+                                <a class="d-block" href="">Derimod</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <h5>Popüler Sayfalar</h5>
+                            <div class="col-4">
+                                <a class="d-block" href="">Bluetooth Kulaklık</a>
+                                <a class="d-block" href="">iPhone</a>
+                                <a class="d-block" href="">Samsung Cep Telefonu</a>
+                                <a class="d-block" href="">iPhone12</a>
+                                <a class="d-block" href="">iPhone13</a>
+                                <a class="d-block" href="">Robot Süpürge</a>
+                                <a class="d-block" href="">Laptop</a>
+                                <a class="d-block" href="">Tam Altın</a>
+                                <a class="d-block" href="">Tablet</a>
+                                <a class="d-block" href="">Kulaklık</a>
+                                <a class="d-block" href="">Bluetooth Kulaklık</a>
+                                <a class="d-block" href="">Koltuk Takımı</a>
+                                <a class="d-block" href="">Apple Watch</a>
+                                <a class="d-block" href="">Çamaşır Makinesi</a>
+                                <a class="d-block" href="">Bulaşık Makinesi</a>
+                            </div>
+                            <div class="col-4">
+                                <a class="d-block" href="">Bluetooth Kulaklık</a>
+                                <a class="d-block" href="">iPhone</a>
+                                <a class="d-block" href="">Samsung Cep Telefonu</a>
+                                <a class="d-block" href="">iPhone12</a>
+                                <a class="d-block" href="">iPhone13</a>
+                                <a class="d-block" href="">Robot Süpürge</a>
+                                <a class="d-block" href="">Laptop</a>
+                                <a class="d-block" href="">Tam Altın</a>
+                                <a class="d-block" href="">Tablet</a>
+                                <a class="d-block" href="">Kulaklık</a>
+                                <a class="d-block" href="">Bluetooth Kulaklık</a>
+                                <a class="d-block" href="">Koltuk Takımı</a>
+                                <a class="d-block" href="">Apple Watch</a>
+                                <a class="d-block" href="">Çamaşır Makinesi</a>
+                                <a class="d-block" href="">Bulaşık Makinesi</a>
+                            </div>
+                            <div class="col-4">
+                                <a class="d-block" href="">Bluetooth Kulaklık</a>
+                                <a class="d-block" href="">iPhone</a>
+                                <a class="d-block" href="">Samsung Cep Telefonu</a>
+                                <a class="d-block" href="">iPhone12</a>
+                                <a class="d-block" href="">iPhone13</a>
+                                <a class="d-block" href="">Robot Süpürge</a>
+                                <a class="d-block" href="">Laptop</a>
+                                <a class="d-block" href="">Tam Altın</a>
+                                <a class="d-block" href="">Tablet</a>
+                                <a class="d-block" href="">Kulaklık</a>
+                                <a class="d-block" href="">Bluetooth Kulaklık</a>
+                                <a class="d-block" href="">Koltuk Takımı</a>
+                                <a class="d-block" href="">Apple Watch</a>
+                                <a class="d-block" href="">Çamaşır Makinesi</a>
+                                <a class="d-block" href="">Bulaşık Makinesi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid trendyol-footer">
+        <footer class="row w-100 p-5 bg-black text-white">
+            <div class="col p-5">
+                <h5>Trendyol</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Biz Kimiz</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kariyer</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">İletişim</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trendyol'da Satış Yap</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kurumsal Hediye Çeki</a></li>
+                    <li><img src="/images/anlasmalar.png" class="anlasmalar"></li>
+                </ul>
+            </div>
+
+            <div class="col p-5">
+                <h5>About Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Who we are</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="col p-5">
+                <h5>Kampanyalar</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Aktif Kampanyalar</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Elite Üyelik</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hediye Fikirleri</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trendyol Fırsatları</a></li>
+                </ul><br><br>
+                <h5>Sosyal Medya</h5>
+                <ul class="nav d-flex">
+                    <li><i class="fa-brands fa-instagram me-3"></i></li>
+                    <li><i class="fa-brands fa-facebook  me-3"></i></li>
+                    <li><i class="fa-brands fa-twitter me-3"></i></li>
+                    <li><i class="fa-brands fa-youtube me-3"></i></li>
+                </ul>
+            </div>
+
+            <div class="col p-5">
+                <h5>Yardım</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sıkça Sorulan Sorular</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Canlı Yardım</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nasıl İade Edebilirim</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">İşlem Rehberi</a></li>
+                </ul>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
